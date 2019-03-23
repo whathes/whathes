@@ -14,7 +14,7 @@
 			y=(s-(x*100)-z)/10;
 			if(s==x*x*x+y*y*y+z*z*z) {
 				count++;
-				System.out.print(s+"\n");
+				System.out.println(s);
 			}
 			if(count==3)
 				break;
